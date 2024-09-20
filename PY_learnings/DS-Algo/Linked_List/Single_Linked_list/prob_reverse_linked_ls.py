@@ -53,9 +53,8 @@ class LinkedList:
         first = second = self.head
         for _  in range(k):
             if first is None:
-                return None
+                return None  # If n is greater than the length of the list
             first = first.next
-        count = 0
         while first:
             second = second.next
             first = first.next

@@ -99,7 +99,7 @@ class LinkedList:
             return 0, None
         count, prev_node = self.nth_from_last_node(node.next, k)
         count += 1
-        if count == k:
+        if count == k or k == 0:
             return count, node
         return count, prev_node
 
@@ -107,6 +107,7 @@ class LinkedList:
         if idx < 0:
             raise IndexError("Invalid Index.")
         count, node = self.nth_from_last_node(self.head, idx)
+        # breakpoint()
         if count < idx:
             raise IndexError("Index out of range")
         return node.data
@@ -149,5 +150,7 @@ ls.delete_last_node()
 ls.show()
 ll.show()
 data = ll.find_nth_node(4)
+print(data)
+data = ll.find_nth_node(0)
 print(data)
 print(ll.get_nth_from_last(4))
