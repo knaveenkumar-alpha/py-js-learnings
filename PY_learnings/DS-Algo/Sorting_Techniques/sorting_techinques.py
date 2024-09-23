@@ -160,7 +160,7 @@ def quick_sort(arr):
 # https://www.w3schools.com/dsa/dsa_timecomplexity_quicksort.php
 arr = [35, 29, 10, 43]
 res = quick_sort(arr)
-print(res)
+print("Sorted array using Heap sort:", res)
 
 """
 6. Heap Sort: Heap sort uses a binary heap data structure to manage the data. It first builds
@@ -174,6 +174,33 @@ Worst case: O(n logn)
 
 Space Complexity: O(1) (in-place sort)
 """
+# Heap sort
+def heapify(arr, n, i):
+    largest = i
+    l = 2 * i + 1
+    r = 2 * i + 2
+
+    if l < n and arr[l] > arr[largest]:
+        largest = l
+    if r < n and arr[r] > arr[largest]:
+        largest = r
+    if largest != i:
+        arr[i], arr[largest] = arr[largest], arr[i]
+        heapify(arr, n, largest)
+
+def heap_sort(arr):
+    n = len(arr)
+    for i in range(n // 2 - 1, -1, -1):
+        heapify(arr, n, i)
+
+    for i in range(n - 1, 0, -1):
+        arr[i], arr[0] = arr[0], arr[i]
+        heapify(arr, i, 0)
+
+# Example usage:
+arr = [12, 11, 13, 5, 6, 7]
+heap_sort(arr)
+print("Sorted array using Heap sort:", arr)
 
 
 """
