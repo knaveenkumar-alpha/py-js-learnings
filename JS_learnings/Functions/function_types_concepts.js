@@ -1,23 +1,53 @@
 /*
 JavaScript functions can be categorized in various ways based on how they are defined, how they behave, and
 how they are used. Here are some of the main types of functions in JavaScript with examples:
-1. Function Declaration: A function declaration defines a named function that can be called anywhere in the 
+
+1. Function Declaration: 
+------------------------
+A function declaration defines a named function that can be called anywhere in the 
 scope where it is defined.
-2. Function Expression: A function expression defines a function as part of an expression. It can be named or anonymous.
-3. Arrow Function: Arrow functions provides a shorter syntax for writing functions. They are always anonymous and don't
+
+2. Function Expression:
+-----------------------
+A function expression defines a function as part of an expression. It can be named or anonymous.
+
+3. Arrow Function: 
+------------------
+Arrow functions provides a shorter syntax for writing functions. They are always anonymous and don't
 have their own 'this' context.
-4. Immediately Invoked Function Expression (IIFE): An IIFE is a function that is executed immediately after it is defined.
+
+4. Immediately Invoked Function Expression (IIFE):
+--------------------------------------------------
+An IIFE is a function that is executed immediately after it is defined.
 It's commonly used to create a new scope and avoid polluting the global namespace.
-5. Higher-Order Function: A higher-order function is a function that takes another function as an argument, or returns
+
+5. Higher-Order Function: 
+-------------------------
+A higher-order function is a function that takes another function as an argument, or returns
 a function as a result.
-6. Callback Function: A Callback function is a function passed into another function as an argument, which is then invoked
+
+6. Callback Function: 
+---------------------
+A Callback function is a function passed into another function as an argument, which is then invoked
 inside the outer function to complete some action.
-7. Recursive Function: A Recursive function is a function that calls itself until it reaches a base condition.
-8. Generator Function: A generator function is a special type of function that can be paused and resumed, using the 'yield'
+
+7. Recursive Function: 
+----------------------
+A Recursive function is a function that calls itself until it reaches a base condition.
+
+8. Generator Function: 
+----------------------
+A generator function is a special type of function that can be paused and resumed, using the 'yield'
 keyword. It's denoted by an asterisk('*') after the 'function' keyword.
-9. Asynchronous Function (Async/Await): An Async function is a function that returns a 'promise', and 'await' is used to
+
+9. Asynchronous Function (Async/Await): 
+---------------------------------------
+An Async function is a function that returns a 'promise', and 'await' is used to
 wait for the promise to resolve.
-10. Constructor Function: A constructor function is used to create objects. When called with the 'new' keyword, it creates
+
+10. Constructor Function: 
+-------------------------
+A constructor function is used to create objects. When called with the 'new' keyword, it creates
 a new object and assigns 'this' to the newly created object.
 
 These are some of the primary types of functions in JavaScript, each with its own use cases and characteristics. 
