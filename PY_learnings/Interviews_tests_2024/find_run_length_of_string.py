@@ -14,7 +14,7 @@ def run_length_input_string(inp_str):
     return res
 
 
-s = '  AB  AB a a b @4bbk'
+# s = '  AB  AB a a b @4bbk'
 s = ' AB ABB a a b @456 bk '
 # st = s.replace(' ', '')
 res = run_length_input_string(s)
