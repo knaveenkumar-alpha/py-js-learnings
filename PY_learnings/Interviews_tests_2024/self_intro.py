@@ -1,7 +1,7 @@
 """
 Naveen Kumar K Python Developer (7.8 years of IT Experience)
 
-I'm Naveen kumar.K and I've 7.8 years overall IT experience, including 6.5 years specializing in Python with
+I'm Naveen kumar and I've 7.8 years overall IT experience, including 6.5 years specializing in Python with
 frameworks like FastAPI and Django. My expertise spans across core Python concepts such as data structures,
 comprehensions, object-oriented programming (OOP), decorators, regular expressions, file handling, and exception
 handling.
