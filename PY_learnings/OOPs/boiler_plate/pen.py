@@ -15,6 +15,6 @@ class InkCartridge:
 
 
 class Pen:  # Composite object
-	def __init__(self, ink_cartridge, brand='Pycon'):
+	def __init__(self, ink_cartridge: InkCartridge, brand='Pycon'):
 		self.ink_cartridge = ink_cartridge
 		self.brand = brand
