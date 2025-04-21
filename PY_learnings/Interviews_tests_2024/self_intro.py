@@ -1,22 +1,18 @@
 """
-Naveen Kumar K Python Developer (7.8 years of IT Experience)
-
-I'm Naveen kumar and I've 7.8 years overall IT experience, including 6.5 years specializing in Python with
+Naveen Kumar K Python Developer (8 years of IT Experience)
+I'm Naveen kumar and I've 8 years overall IT experience, including 7 years specializing in Python with
 frameworks like FastAPI and Django. I've strong knowledge of Python concepts, such as data structures,
 comprehensions, object-oriented programming (OOP), decorators, regular expressions, file handling, and exception
 handling.
-
 In the cloud computing domain, I have hands-on experience with Azure services, including Azure Functions, Durable
 Functions,Azure storage Queues, and Blob Storage. I've also working experience with AWS, utilizing EC2, CloudWatch, 
 Lambda, and S3 for various applications and have knowledge on GCP Dataflows and Pub/Sub's.
-
 Cureent Project:
 Catena-X Digital Twin solutions – Automotive Consortium:
 ------------------------------------------------------
 I contributed to the development of digital twin solutions for damage calculation and health monitoring within an
 automotive consortium. My role involved creating predictive maintenance models through real-time sensor data
 integration, optimizing asset management by detecting early damage, which will improve automative maintenance schedules.
-
 In my day-to-day responsibilities:
 1.Microservices Development: 
             Where we implement scalable and maintainable microservices using Python and FastAPI, ensuring
