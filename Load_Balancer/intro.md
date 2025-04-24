@@ -1,7 +1,3 @@
-Here are some interview questions and answers related to **Load Balancers** in **Azure**, **AWS**, and **GCP**:
-
----
-
 ### **Azure Load Balancer Interview Questions**
 
 1. **What is Azure Load Balancer?**
@@ -64,7 +60,3 @@ Here are some interview questions and answers related to **Load Balancers** in *
 
 5. **What is the role of a Backend Service in GCP Load Balancing?**
    - A Backend Service defines the backend instances, health checks, and session affinity settings for the load balancer.
-
----
-
-These questions cover the fundamentals and advanced concepts of Load Balancers in Azure, AWS, and GCP. Let me know if you'd like more detailed explanations or additional questions! 🚀
