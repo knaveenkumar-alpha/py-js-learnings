@@ -15,8 +15,8 @@ A **load balancer** distributes incoming traffic across multiple servers (backen
 - Handle failovers
 
 It operates at:
-- **Layer 4 (TCP)** or
-- **Layer 7 (HTTP/HTTPS)** of the OSI model.
+- **Layer 4 Transmission Control Protocol(TCP)** or
+- **Layer 7 HyperText Transmission Protocol/ Security (HTTP/HTTPS)** of the OSI model.
 
 ---
 
@@ -28,8 +28,8 @@ It operates at:
 
 Azure offers:
 
-1. **Azure Load Balancer (L4)** – Basic/Standard (TCP/UDP)
-2. **Azure Application Gateway (L7)** – HTTP routing, SSL termination, WAF
+1. **Azure Load Balancer (L4)** – Basic/Standard (TCP/UDP) User Datagram Protocol
+2. **Azure Application Gateway (L7)** – HTTP routing, SSL(Secure Socket Layer) termination, WAF(Web Application Firewall)
 
 #### 📌 Example: Azure Load Balancer Setup (Layer 4)
 
