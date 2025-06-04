@@ -91,3 +91,15 @@ also enhances intercommunication across applications and data sources. It can ke
 business uses and open way for new opportunities and processes. Usage of a wide range of connectors, data formats and 
 protocols allows Zato to avoid restricting architectural style or enforcing any other limitations.
 """
+
+""" 
+Hello, I’m a Technical Lead and Python Specialist with 8 years of experience, passionate about building optimized, 
+scalable solutions. I’ve led the development of the CatenaX Service for asset management and health monitoring in 
+the automotive industry, using FastAPI and achieving over 90% code coverage. I design CI/CD pipelines with Azure DevOps, 
+streamline deployments with Docker, and apply design patterns like Factory and Singleton for clean, flexible code. 
+I contribute to architectural planning, ensuring solutions align with project goals and best practices. As a mentor, 
+I guide my team to improve code quality and skills while managing project timelines and deliverables for timely, 
+high-quality outcomes. I communicate effectively with stakeholders, maintain clear documentation, and focus on 
+continuous learning to stay updated with Python advancements. I’m excited to bring my technical expertise, leadership, 
+and passion for innovation to your organization.
+"""
