@@ -2,17 +2,37 @@
 
 **Good [morning/afternoon], thank you for having me today.**
 
-My name is **Naveen Kumar**, and I’m a Python Developer with **8 years of IT experience**, including **7 years** specializing in Python development. I have a strong background in building scalable applications using frameworks like **FastAPI** and **Django**, and I’m proficient in core Python concepts such as **data structures**, **OOP**, **decorators**, **comprehensions**, **regular expressions**, **file handling**, and **exception handling**.
+I'm a **Python Technical Lead** with **9 years of IT experience** – 8 of those focused on Python development. I know Python well: data structures, OOP, decorators, file handling, error handling, and more.
 
-In the **cloud computing domain**, I have hands-on experience with **Azure services** like **Azure Functions**, **Durable Functions**, **Azure Storage Queues**, and **Blob Storage**. I’ve also worked with **AWS services** including **EC2**, **CloudWatch**, **Lambda**, and **S3**, and I have knowledge of **GCP Dataflows** and **Pub/Sub**, enabling me to design and deploy cloud-native solutions effectively.
+In the cloud world, I've worked with **Azure** (Functions, Queues, Blob Storage) and **AWS** (EC2, Lambda, S3). But right now, I'm focused on **Databricks**.
 
-Currently, I’m working on the **Catena-X Digital Twin Solutions** project for an automotive consortium, where I contribute to developing digital twin solutions for **damage calculation** and **health monitoring**. My work focuses on creating **predictive maintenance models** by integrating real-time sensor data, optimizing asset management, and improving maintenance schedules in the automotive industry.
+### What I Do with Databricks
 
-### My Key Roles and Responsibilities:
-1. **Microservices Development**: I design and implement scalable microservices using **Python** and **FastAPI**, ensuring robust and maintainable application architectures that meet business needs.
-2. **Testing and Debugging**: I write comprehensive unit tests using **Pytest**, enhance test coverage, and troubleshoot issues across development, QA, and production environments to maintain application stability.
-3. **Documentation**: I create detailed documentation for product features, deployment processes, and debugging guides, streamlining knowledge sharing and reducing onboarding time for teams.
-4. **Code Reviews**: I conduct thorough code reviews to ensure high code quality, optimize performance, identify potential issues, and provide constructive feedback to foster team collaboration.
+- **Design data pipelines** – using Auto Loader, Delta Lake, and streaming to move and clean data automatically.
+- **Build pipeline architecture** – using the medallion pattern (bronze → silver → gold) for reliable and traceable data.
+- **Create services** – using FastAPI to serve processed data through REST APIs.
+- **Orchestrate jobs** – scheduling and monitoring workflows with Databricks Jobs and Apache Airflow.
+- **Connect web applications** – letting apps trigger pipelines, check status, and show results on dashboards.
+
+I enjoy building data systems that are simple, stable, and useful for both internal teams and customer-facing web apps.
+
+---
+
+## My Key Roles and Responsibilities
+
+### 1. Microservices Development
+I design and build scalable microservices using **Python** and **FastAPI**. I make sure the application architecture is strong, easy to maintain, and meets business needs.
+
+### 2. Testing and Debugging
+I write detailed unit tests with **Pytest** to improve test coverage. I also fix issues in development, QA, and production environments to keep applications stable.
+
+### 3. Documentation
+I write clear documentation for product features, deployment steps, and debugging guides. This helps the team share knowledge and reduces the time needed to train new members.
+
+### 4. Code Reviews
+I carefully review code to ensure high quality, improve performance, find potential problems, and give helpful feedback. This helps the whole team grow and collaborate better.
+
+---
 
 I’m passionate about leveraging my technical expertise and problem-solving skills to deliver high-quality solutions. I enjoy mentoring teammates, staying updated with the latest technologies, and contributing to innovative projects. I’m excited about the opportunity to bring my experience in Python development, cloud computing, and microservices to your team and contribute to your organization’s success.
 
