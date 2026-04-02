@@ -18,6 +18,7 @@ Variables declared inside a block (between '{}') are accessible only within that
 not where it is called. Inner function have access to the variables of their outer functions.
 
 Closures:
+---------
 Closures occur when a function is able to remember and access its lexical scope even when it is executed outside
 of that scope.
 A closure is created whenever a function is created within another function, and the inner function accesses the

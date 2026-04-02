@@ -1,0 +1,100 @@
+version: '3.7'
+
+services:
+  # ---------------- POSTGRES ----------------
+  postgres:
+    image: postgres:14.0
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - "5432:5432"
+
+  # ---------------- REDIS ----------------
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+
+  # ---------------- AIRFLOW WEB SERVER ----------------
+  webserver:
+    image: apache/airflow:2.5.1
+    restart: always
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres/airflow
+      - AIRFLOW__WEBSERVER__RBAC=True
+      - AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=UTC
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./config/airflow.cfg:/opt/airflow/airflow.cfg
+    ports:
+      - "8080:8080"
+    command: webserver
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type Scheduler --hostname $(hostname)"]
+      interval: 30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+
+  # ---------------- AIRFLOW SCHEDULER ----------------
+  scheduler:
+    image: apache/airflow:2.5.1
+    restart: always
+    depends_on:
+      - webserver
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres/airflow
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./config/airflow.cfg:/opt/airflow/airflow.cfg
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type Scheduler --hostname $(hostname)"]
+      interval: 30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+
+  # ---------------- AIRFLOW WORKER ----------------
+  worker:
+    image: apache/airflow:2.5.1
+    restart: always
+    depends_on:
+      - scheduler
+      - redis
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres/airflow
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./config/airflow.cfg:/opt/airflow/airflow.cfg
+    command: celery worker
+
+volumes:
+  postgres_data:
