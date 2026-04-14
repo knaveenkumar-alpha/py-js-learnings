@@ -1,60 +1,101 @@
 ### Self-Introduction for Interview
 
-**Good [morning/afternoon], thank you for having me today.**
+Good [morning/afternoon], thank you for having me today.
 
-I'm a **Python Technical Lead** with **9 years of IT experience** – 8 of those focused on Python development. I know Python well: data structures, OOP, decorators, file handling, error handling, and more.
+I'm Naveen Kumar Kuruva working as Python Technical Lead in ZF with 9 years of experience building scalable, distributed systems and data platforms. Over the years, I’ve evolved from being a strong individual contributor to someone who drives architecture, defines engineering standards, and influences cross-team technical decisions.
 
-In the cloud world, I've worked with **Azure** (Functions, Queues, Blob Storage) and **AWS** (EC2, Lambda, S3). But right now, I'm focused on **Databricks**.
+I have deep expertise in Python, including system design, OOP, and writing clean, maintainable code. I’ve worked extensively in cloud-native environments, primarily worked on Azure (Function, Durable Function, Datalake Gen2, Azure Storage, and Queues) and AWS, and currently specialize in building high-throughput data platforms using Databricks and Spark.
 
-### What I Do with Databricks
+## What I Do with Databricks
 
-- **Design data pipelines** – using Auto Loader, Delta Lake, and streaming to move and clean data automatically.
-- **Build pipeline architecture** – using the medallion pattern (bronze → silver → gold) for reliable and traceable data.
-- **Create services** – using FastAPI to serve processed data through REST APIs.
-- **Orchestrate jobs** – scheduling and monitoring workflows with Databricks Jobs and Apache Airflow.
-- **Connect web applications** – letting apps trigger pipelines, check status, and show results on dashboards.
+- **Architect scalable data platforms** – designing end-to-end pipelines using Auto Loader, Delta Lake, and Spark Structured Streaming to handle large-scale batch and real-time data.
+- **Define data architecture** – implementing medallion architecture (bronze → silver → gold) with strong data governance, lineage, and reliability.
+- **Enable API-first platforms** – building FastAPI-based services that expose processed data for real-time consumption across internal systems and external applications.
+- **Orchestrate complex workflows** – using Databricks Jobs and Airflow to manage dependencies, retries, and fault-tolerant execution at scale.
+- **Bridge data and applications** – enabling seamless integration between data platforms and web applications for real-time insights and operational decision-making.
 
-I enjoy building data systems that are simple, stable, and useful for both internal teams and customer-facing web apps.
-
----
+I focus on building systems that are not just functional, but scalable, observable, and resilient under high load.
 
 ## My Key Roles and Responsibilities
 
-### 1. Microservices Development
-I design and build scalable microservices using **Python** and **FastAPI**. I make sure the application architecture is strong, easy to maintain, and meets business needs.
+### 1. System Architecture & Technical Leadership
 
-### 2. Testing and Debugging
-I write detailed unit tests with **Pytest** to improve test coverage. I also fix issues in development, QA, and production environments to keep applications stable.
+I design distributed, cloud-native architectures with a focus on scalability, fault tolerance, and performance. I drive architectural decisions, define best practices, and ensure systems can handle high-volume data and real-time processing requirements.
 
-### 3. Documentation
-I write clear documentation for product features, deployment steps, and debugging guides. This helps the team share knowledge and reduces the time needed to train new members.
+### 2. API-First & Microservices Development
 
-### 4. Code Reviews
-I carefully review code to ensure high quality, improve performance, find potential problems, and give helpful feedback. This helps the whole team grow and collaborate better.
+I build and guide teams in developing API-first, microservices-based systems using Python and FastAPI. I ensure strong contract design, versioning strategies, and seamless interoperability across services.
+
+### 3. Data Engineering & Real-Time Processing
+
+I design batch and streaming pipelines using Databricks and PySpark, enabling near real-time analytics and reliable data transformation at scale.
+
+### 4. Engineering Excellence & Mentorship
+
+I mentor engineers through design reviews and code reviews, promote best practices like SOLID principles, and help teams improve code quality, performance, and maintainability.
+
+### 5. Reliability, Observability & DevOps
+
+I implement CI/CD pipelines, monitoring, and logging strategies to ensure systems are production-ready, highly available, and easy to debug.
+
+### 6. Cross-Team Collaboration & Ownership
+
+I work closely with product, data, and platform teams to translate complex business problems into scalable technical solutions, and I take ownership of delivering them end-to-end.
+
+🌟 **Closing Line (Very Important)**
+
+I'm really interested in this role because it matches what I've been doing—building large-scale data and API platforms. I'm excited to work at a bigger level: leading system design, helping teams succeed, and building reliable systems that work well even under heavy load.
 
 ---
 
-I’m passionate about leveraging my technical expertise and problem-solving skills to deliver high-quality solutions. I enjoy mentoring teammates, staying updated with the latest technologies, and contributing to innovative projects. I’m excited about the opportunity to bring my experience in Python development, cloud computing, and microservices to your team and contribute to your organization’s success.
-
-**Thank you, and I look forward to discussing how I can add value to your projects.**
+### I define Engineering Standards for Staff-level Python Engineer / Technical Lead
 
 ---
 
-### How to Use This Introduction
-1. **Practice Delivery**: Rehearse the introduction to sound natural and confident. Aim for a 1-2 minute delivery, maintaining a steady pace and clear tone.
-2. **Customize for Context**: Adjust the greeting (e.g., “Good morning” vs. “Good afternoon”) and tailor the closing based on the company or role (e.g., mention EPAM’s focus on digital transformation or LiveRamp’s data connectivity expertise).
-3. **Follow-Up Readiness**: Be prepared to elaborate on any point, such as your work on Catena-X or specific Azure/AWS skills, as interviewers may ask for details.
-4. **Non-Verbal Communication**: Maintain good posture, eye contact (if in-person or video), and a friendly demeanor to enhance your presentation.
+### 1. **Coding & Code Review Standards**
+- **Example:** Mandating that all Python code uses type hints (`typing`, `pydantic`) and passes `mypy --strict` before merging.
+- **Example:** Defining a maximum cyclomatic complexity (e.g., 10) and requiring that any function exceeding it is refactored or explicitly justified.
+- **Example:** Standardizing on `black` + `isort` + `ruff` for formatting/linting, with a pre-commit hook.
 
-### Tips for Interview Success
-- **Align with Company Goals**: For **EPAM**, emphasize your experience in digital transformation and full-stack development ([EPAM Careers](https://www.epam.com/careers)). For **LiveRamp**, highlight data integration and cloud expertise ([LiveRamp Interview Guide](https://www.interviewquery.com/interview-guides/liveramp-software-engineer)).
-- **Use STAR Method**: When answering follow-up questions, use the Situation-Task-Action-Result (STAR) method to structure your responses, drawing from your Catena-X experience.
-- **Prepare Questions**: End the interview with thoughtful questions about the team, projects, or tech stack to show interest.
-- **Resources**: Review candidate experiences on [AmbitionBox](https://www.ambitionbox.com/interviews/epam-systems-interview-questions/senior-soft-engineer) or [Glassdoor](https://www.glassdoor.co.in/Interview/EPAM-Senior-Software-Engineer-Interview-Questions-EI_IE15544.0%2C4_KO5%2C29.htm) for insights into EPAM and LiveRamp interview processes.
+### 2. **API Design Standards**
+- **Example:** All FastAPI endpoints must follow RESTful naming conventions (`GET /resources`, `POST /resources/{id}/action`) and use `OpenAPI` for contract documentation.
+- **Example:** Enforcing consistent error responses (e.g., `{"error_code": "RATE_LIMITED", "message": "..."}`) and HTTP status codes.
+- **Example:** Mandating request/response schema versioning (e.g., `/v1/`, `/v2/`) and deprecation policies.
 
-### Additional Notes
-- The introduction is concise yet comprehensive, covering your technical skills, project experience, and soft skills like mentoring and collaboration.
-- It avoids jargon, ensuring it’s accessible to both technical and non-technical interviewers.
-- If you need a specific variation (e.g., shorter version, tailored for a particular role, or including other projects), let me know, and I can refine it further.
+### 3. **Data & Pipeline Standards (Databricks/Spark)**
+- **Example:** Every pipeline must implement the medallion architecture (bronze → silver → gold) with a clear schema enforcement in silver layer.
+- **Example:** Using `Auto Loader` with checkpointing and schema evolution for all ingestion, never raw file reads without tracking.
+- **Example:** Requiring `Delta Lake` with `OPTIMIZE` and `VACUUM` policies defined per table (e.g., optimize daily, vacuum every 7 days).
 
-Would you like me to provide additional content, such as sample STAR method responses for common interview questions or a tailored version of the introduction for a specific company?
+### 4. **Testing Standards**
+- **Example:** Unit tests must cover ≥80% of new code, with mandatory property-based testing (`hypothesis`) for complex transformations.
+- **Example:** Integration tests for all pipelines that run on a sample of production data in a CI environment before merging.
+- **Example:** Defining a naming convention: `test_<function>_<scenario>_<expected_result>`.
+
+### 5. **Observability & Logging Standards**
+- **Example:** Every service must emit structured logs in JSON format with fields: `timestamp`, `level`, `trace_id`, `user_id`, `message`.
+- **Example:** Critical business events (e.g., data export, API key rotation) must log at `INFO` and also send a metric to Datadog/CloudWatch.
+- **Example:** Defining SLIs (e.g., p99 latency < 500ms) and SLOs, with alerts when error budget is exhausted.
+
+### 6. **CI/CD & Release Standards**
+- **Example:** All code must pass linting, unit tests, and security scan (`bandit`, `safety`) before a PR can merge.
+- **Example:** Using semantic versioning (`major.minor.patch`) for libraries and services, with automated changelog generation.
+- **Example:** Requiring a staging deployment with canary testing (e.g., 5% traffic) before any production release.
+
+### 7. **Documentation Standards**
+- **Example:** Every repository must have a `README.md` with: purpose, local setup, environment variables, and deployment steps.
+- **Example:** All public APIs and internal utility modules require docstrings following Google or NumPy style.
+- **Example:** Maintaining an architecture decision record (ADR) for any non-trivial design choice.
+
+---
+
+### What Are Cross-Team Technical Decisions? (Examples)
+
+These are decisions that affect more than one engineering team (e.g., Platform, Data, API, Frontend, ML). Examples include:
+
+- **Choosing a common serialization format** (Parquet vs Avro vs JSON) across ingestion, serving, and analytics teams.
+- **Standardizing on a single message broker** (e.g., Kafka vs Pulsar) for all event-driven communication.
+- **Defining a shared authentication/authorization scheme** (OAuth2 + scopes) used by all internal microservices.
+- **Setting a company-wide policy for retries, timeouts, and circuit breakers** in distributed systems.
+- **Deciding to adopt a new tool** (e.g., Databricks Unity Catalog for governance) that requires all data producers to change their pipelines.
+- **Establishing SLAs for data freshness** (e.g., silver layer updated every 15 minutes) that downstream teams must respect.
