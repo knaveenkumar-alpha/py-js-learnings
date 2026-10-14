@@ -1,424 +1,219 @@
-# Microsoft Interview Preparation Plan (March 10, 2025 - June 1, 2025)
+# Software Engineering Interview Preparation Roadmap
 
-This document outlines a comprehensive interview preparation plan covering Data Structures, Algorithms, System Design, and Coding problems. Detailed concepts along with daily tasks are included to enable in-depth revision and hands-on problem solving.
+A 12-week roadmap for preparing for software engineering interviews through Python and JavaScript practice, data structures and algorithms, system design, and mock interviews.
 
----
+## How to use this roadmap
+
+- Aim for **1–2 focused hours per day**, adjusting the pace as needed.
+- Implement core concepts in both Python and JavaScript where practical.
+- Solve problems by explaining your approach, complexity, and edge cases—not just reaching an answer.
+- Keep notes and revisit topics that feel difficult.
+- Treat the schedule as a guide: spend additional time on weak areas.
 
 ## Table of Contents
 
-1. [Week 1-2: Fundamentals & Linked Lists](#week-1-2)
-   - Daily Goals & Detailed Topics
-2. [Week 3-4: Stacks, Queues & Python Core Concepts](#week-3-4)
-   - Daily Goals & Advanced Python Topics
-3. [Week 5-6: Trees & Graphs](#week-5-6)
-   - Core Tree Operations & Graph Algorithms
-4. [Week 7-8: Dynamic Programming & Advanced Graphs](#week-7-8)
-   - DP Problems and Graph Optimization Techniques
-5. [Week 9-10: System Design & Mock Interviews](#week-9-10)
-   - System Design Fundamentals & Case Studies
-6. [Week 11-12: Final Revision & Mock Interviews](#week-11-12)
-   - Comprehensive Revision & Confidence Building
+- [Weekly Roadmap](#weekly-roadmap)
+- [Language Topics](#language-topics)
+- [System Design Framework](#system-design-framework)
+- [Interview Practice Routine](#interview-practice-routine)
+- [Progress Tracker](#progress-tracker)
 
 ---
 
-## Week 1-2: Fundamentals & Linked Lists (March 10 - March 24, 2025)
+## Weekly Roadmap
 
-**Daily Goal (1 - 1.5 hours):**  
-Revisit Linked Lists and Sorting Algorithms. Focus is on understanding core concepts, implementing various methods from scratch, and solving LeetCode problems.
+### Weeks 1–2: Programming Fundamentals, Complexity, and Linked Lists
 
-### **Schedule & Detailed Concepts**
+**Goals:** Strengthen problem-solving fundamentals and become comfortable analyzing time and space complexity.
 
-- **March 10:**  
-  **Topic:** Singly & Doubly Linked Lists  
-  **Concepts:** Structure of linked lists, pointers, memory allocation, comparisons with arrays.  
-  **Task:** Implement insert, delete, & reverse operations.
+**Study and practice:**
+- Review arrays, strings, hash maps, sets, and basic recursion.
+- Learn Big O notation and compare common operations.
+- Implement singly and doubly linked lists.
+- Practice insertion, deletion, reversal, cycle detection, and merging.
+- Review sorting: merge sort, quicksort, heap sort, and built-in sorting behavior.
 
-- **March 11:**  
-  **Tasks:**  
-  - Solve LeetCode 206 - *Reverse Linked List*  
-  - Solve LeetCode 21 - *Merge Two Sorted Lists*
+**Python focus:**
+- Lists, tuples, dictionaries, and sets
+- Slicing, comprehensions, and built-in functions
+- References, mutability, and function arguments
 
-- **March 12:**  
-  **Tasks:**  
-  - Solve LeetCode 141 - *Linked List Cycle*  
-  - Solve LeetCode 160 - *Intersection of Two Linked Lists*
+**JavaScript focus:**
+- Arrays, objects, `Map`, and `Set`
+- `let`, `const`, scope, and equality
+- Array methods, callbacks, and basic debugging
 
-- **March 13:**  
-  **Task:**  
-  - Implement Quick Sort from scratch.  
-  **Concepts:** Partitioning, recursion, and time complexity.
-
-- **March 14:**  
-  **Task:**  
-  - Implement Merge Sort from scratch.  
-  **Concepts:** Divide-and-conquer strategy, merging process, stability.
-
-- **March 15:**  
-  **Tasks:**  
-  - Solve LeetCode 912 - *Sort an Array*  
-  - Solve LeetCode 148 - *Sort List*
-
-- **March 16:**  
-  **Task:**  
-  - Break / Revision  
-  **Concepts:** Revisit implementations; consider edge cases.
-
-- **March 17:**  
-  **Task:**  
-  - Implement Heap Sort & review Priority Queue Basics.  
-  **Concepts:** Heap data structure properties, time complexity considerations.
-
-- **March 18:**  
-  **Tasks:**  
-  - Solve LeetCode 215 - *Kth Largest Element in an Array*  
-  - Solve LeetCode 973 - *K Closest Points to Origin*
-
-- **March 19:**  
-  **Task:**  
-  - Break / Mock problems on Linked Lists & Sorting  
-  **Focus:** Time-bound practice with mock scenarios.
-
-- **March 20:**  
-  **Task:**  
-  - Implement Bucket Sort & Radix Sort  
-  **Concepts:** Non-comparison based sorts; explore when their use is beneficial.
-
-- **March 21:**  
-  **Task:**  
-  - Revise all Sorting Algorithms & Linked Lists  
-  **Concepts:** Consolidation of learnings through practice.
-
-- **March 22:**  
-  **Tasks:**  
-  - Solve LeetCode 23 - *Merge K Sorted Lists*  
-  - Solve LeetCode 2 - *Add Two Numbers*
-
-- **March 23:**  
-  **Task:**  
-  - Break / Practice additional problems  
-  **Focus:** Extra practice on weak areas if any.
-
-- **March 24:**  
-  **Task:**  
-  - Mock Test on Linked Lists & Sorting Algorithms  
-  **Focus:** Timed test conditions to simulate real interviews.
+**Practice problems:** Reverse Linked List, Merge Two Sorted Lists, Linked List Cycle, Intersection of Two Linked Lists, Sort an Array.
 
 ---
 
-## Week 3-4: Stacks, Queues & Python Core Concepts (March 25 - April 7, 2025)
+### Weeks 3–4: Stacks, Queues, and Language Fundamentals
 
-**Daily Goal:**  
-Master stack, queue operations, and advanced Python topics.
+**Goals:** Use stacks and queues confidently and understand the features of each language that commonly arise in interviews.
 
-### **Schedule & Detailed Concepts**
+**Study and practice:**
+- Implement stacks, queues, and priority queues.
+- Practice monotonic stacks and sliding-window techniques.
+- Review iteration, recursion, exceptions, and writing testable functions.
 
-- **March 25:**  
-  **Task:**  
-  - Implement Stack (using list & collections.deque), and different types of Queues (FIFO, LIFO).  
-  **Concepts:** Underlying mechanisms, usage scenarios.
+**Python focus:**
+- Iterators and generators
+- Decorators and closures
+- Classes, properties, and dunder methods
+- `collections.deque` and `heapq`
 
-- **March 26:**  
-  **Tasks:**  
-  - Solve LeetCode 20 - *Valid Parentheses*  
-  - Solve LeetCode 155 - *Min Stack*
+**JavaScript focus:**
+- Functions, closures, and arrow functions
+- Promises, `async`/`await`, and error handling
+- Prototypes and classes
+- Node.js modules and package basics
 
-- **March 27:**  
-  **Task:**  
-  - Implement a Priority Queue using Heap data structure.  
-  **Concepts:** Heap operations, real-time priority adjustments.
-
-- **March 28:**  
-  **Tasks:**  
-  - Solve LeetCode 739 - *Daily Temperatures*  
-  - Solve LeetCode 901 - *Online Stock Span*
-
-- **March 29:**  
-  **Task:**  
-  - Deep dive into Python Decorators & Generators  
-  **Concepts:** Understanding closures, generator expressions, and memory-efficient data iteration.
-
-- **March 30:**  
-  **Task:**  
-  - Break / Solve one real-world application problem  
-  **Focus:** Apply learned concepts in a practical scenario.
-
-- **March 31:**  
-  **Task:**  
-  - Revise Stacks & Queues with custom implementations  
-  **Concepts:** Underlying data structures, error handling.
-
-- **April 1:**  
-  **Tasks:**  
-  - Solve LeetCode 150 - *Evaluate Reverse Polish Notation*  
-  - Solve LeetCode 232 - *Implement Queue using Stacks*
-
-- **April 2:**  
-  **Task:**  
-  - Explore Python Dunder Methods & the @property decorator  
-  **Concepts:** Encapsulation, magic methods for clean APIs.
-
-- **April 3:**  
-  **Task:**  
-  - Break / Solve an additional Python problem  
-  **Concepts:** Work on edge cases and test-driven development.
-
-- **April 4:**  
-  **Task:**  
-  - Mock Test on Stacks, Queues & Python Advanced Concepts
-
-- **April 5:**  
-  **Task:**  
-  - Break / Light Revision
-- **April 6:**  
-  **Tasks:**  
-  - Solve LeetCode 84 - *Largest Rectangle in Histogram*  
-  - Solve LeetCode 239 - *Sliding Window Maximum*
-
-- **April 7:**  
-  **Task:**  
-  - Solve LeetCode 225 - *Implement Stack using Queues*
+**Practice problems:** Valid Parentheses, Min Stack, Daily Temperatures, Evaluate Reverse Polish Notation, Sliding Window Maximum.
 
 ---
 
-## Week 5-6: Trees & Graphs (April 8 - April 21, 2025)
+### Weeks 5–6: Trees, Heaps, and Graph Fundamentals
 
-**Daily Goal:**  
-Strengthen your understanding of Tree operations and Graph algorithms.
+**Goals:** Choose appropriate traversal strategies and solve common tree and graph problems.
 
-### **Schedule & Detailed Concepts**
+**Study and practice:**
+- Implement binary trees and binary search trees.
+- Practice preorder, inorder, postorder, and level-order traversal.
+- Learn heaps and priority-queue use cases.
+- Represent graphs with adjacency lists and matrices.
+- Practice BFS, DFS, connected components, and cycle detection.
 
-- **April 8:**  
-  **Task:**  
-  - Revise Tree Traversals: Preorder, Inorder, Postorder, and Level Order.  
-  **Concepts:** Recursive vs iterative approaches, stack usage for traversal.
+**Python focus:** `deque`, recursion limits, and heap-based algorithms.  
+**JavaScript focus:** Queue implementation choices, object/map-based graph representations, and recursive traversal.
 
-- **April 9:**  
-  **Task:**  
-  - Implement Binary Search Tree (BST) operations: insertion, deletion, search, and traversal.
-
-- **April 10:**  
-  **Tasks:**  
-  - Solve LeetCode 102 - *Binary Tree Level Order Traversal*  
-  - Solve LeetCode 104 - *Maximum Depth of Binary Tree*
-
-- **April 11:**  
-  **Tasks:**  
-  - Solve LeetCode 236 - *Lowest Common Ancestor of a Binary Tree*  
-  - Solve LeetCode 543 - *Diameter of Binary Tree*
-
-- **April 12:**  
-  **Task:**  
-  - Break / Light Revision
-
-- **April 13:**  
-  **Task:**  
-  - Revise Graph Traversals: Depth-First Search (DFS) and Breadth-First Search (BFS).
-
-- **April 14:**  
-  **Tasks:**  
-  - Solve LeetCode 200 - *Number of Islands*  
-  - Solve LeetCode 695 - *Max Area of Island*
-
-- **April 15:**  
-  **Task:**  
-  - Implement Dijkstra & Bellman-Ford Algorithms  
-  **Concepts:** Shortest path, weighted graphs, handling negative weights.
-
-- **April 16:**  
-  **Tasks:**  
-  - Solve LeetCode 743 - *Network Delay Time*  
-  - Solve LeetCode 787 - *Cheapest Flights Within K Stops*
-
-- **April 17:**  
-  **Task:**  
-  - Break / Mock Test on Trees & Graphs
-
-- **April 18:**  
-  **Tasks:**  
-  - Solve LeetCode 133 - *Clone Graph*  
-  - Solve LeetCode 994 - *Rotting Oranges*
-
-- **April 19:**  
-  **Task:**  
-  - Revise Graph Shortest Path & Minimum Spanning Tree algorithms (Kruskal, Prim)
-
-- **April 20:**  
-  **Tasks:**  
-  - Solve LeetCode 207 - *Course Schedule*  
-  - Solve LeetCode 210 - *Course Schedule II*
-
-- **April 21:**  
-  **Task:**  
-  - Break / Solve a custom problem using both BFS & DFS
+**Practice problems:** Binary Tree Level Order Traversal, Maximum Depth of Binary Tree, Lowest Common Ancestor, Number of Islands, Clone Graph, Course Schedule.
 
 ---
 
-## Week 7-8: Dynamic Programming & Advanced Graphs (April 22 - May 5, 2025)
+### Weeks 7–8: Shortest Paths, Dynamic Programming, and Advanced Techniques
 
-**Daily Goal:**  
-Focus on solving dynamic programming (DP) problems and exploring advanced graph techniques.
+**Goals:** Recognize when a problem needs graph algorithms, dynamic programming, or a more efficient search strategy.
 
-### **Schedule & Detailed Concepts**
+**Study and practice:**
+- Implement Dijkstra’s algorithm, topological sort, and union-find.
+- Understand dynamic programming through states, transitions, base cases, and memoization.
+- Practice one-dimensional and two-dimensional DP.
+- Review backtracking, binary search, and greedy strategies.
 
-- **April 22:**  
-  **Task:**  
-  - Learn basic DP problems: Fibonacci, Knapsack, and Coin Change  
-  **Concepts:** Recursion vs memoization.
+**Python focus:** Memoization with dictionaries or `functools`, and efficient heap usage.  
+**JavaScript focus:** Memoization with `Map`, array initialization, and avoiding accidental shared references.
 
-- **April 23:**  
-  **Tasks:**  
-  - Solve LeetCode 322 - *Coin Change*  
-  - Solve LeetCode 416 - *Partition Equal Subset Sum*
-
-- **April 24:**  
-  **Task:**  
-  - Revise Topological Sort & Floyd-Warshall Algorithm  
-  **Concepts:** Ordering tasks in graphs, all-pairs shortest path.
-
-- **April 25:**  
-  **Task:**  
-  - Implement Disjoint Set (Union-Find) & Kruskal's Algorithm  
-  **Concepts:** Efficient connectivity checking, tree balancing.
-
-- **April 26:**  
-  **Tasks:**  
-  - Solve LeetCode 399 - *Evaluate Division*  
-  - Solve LeetCode 684 - *Redundant Connection*
-
-- **April 27:**  
-  **Task:**  
-  - Break / Revise DP techniques
-
-- **April 28:**  
-  **Tasks:**  
-  - Solve LeetCode 62 - *Unique Paths*  
-  - Solve LeetCode 152 - *Maximum Product Subarray*
-
-- **April 29:**  
-  **Tasks:**  
-  - Solve LeetCode 5 - *Longest Palindromic Substring*  
-  - Solve LeetCode 70 - *Climbing Stairs*
-
-- **April 30:**  
-  **Task:**  
-  - Solve LeetCode 300 - *Longest Increasing Subsequence*
-
-- **May 1:**  
-  **Task:**  
-  - Break / Light DP problem solving  
-
-- **May 2:**  
-  **Tasks:**  
-  - Solve LeetCode 198 - *House Robber*  
-  - Solve LeetCode 139 - *Word Break*
-
-- **May 3:**  
-  **Tasks:**  
-  - Solve LeetCode 53 - *Maximum Subarray*  
-  - Solve LeetCode 1143 - *Longest Common Subsequence*
-
-- **May 4:**  
-  **Task:**  
-  - Mock DP problems / Practice real-world DP scenarios
-
-- **May 5:**  
-  **Task:**  
-  - Break / Solve additional DP problems
+**Practice problems:** Network Delay Time, Coin Change, Climbing Stairs, House Robber, Longest Increasing Subsequence, Word Break.
 
 ---
 
-## Week 9-10: System Design & Mock Interviews (May 6 - May 19, 2025)
+### Weeks 9–10: System Design and Practical Engineering
 
-**Daily Goal:**  
-Gain a solid understanding of system design fundamentals and practice with real-case studies.
+**Goals:** Structure design discussions clearly and explain trade-offs.
 
-### **Schedule & Detailed Concepts**
+**Study and practice:**
+- Requirements: clarify users, features, constraints, and success metrics.
+- Capacity estimation: traffic, storage, bandwidth, and growth.
+- Components: APIs, databases, caches, queues, and object storage.
+- Scalability: load balancing, replication, partitioning, and sharding.
+- Reliability: retries, timeouts, idempotency, monitoring, and disaster recovery.
+- Data choices: SQL versus NoSQL, indexing, consistency, and transactions.
+- Practice designing a URL shortener, notification service, news feed, or file-storage service.
 
-- **May 6:**  
-  **Task:**  
-  - Learn about Scalability, Load Balancing, and Caching  
-  **Concepts:** Horizontal vs vertical scaling, caching strategies (in-memory, distributed).
-
-- **May 7:**  
-  **Task:**  
-  - Revise Database Scaling (SQL vs NoSQL, Sharding, Indexing)  
-  **Concepts:** ACID vs BASE, consistency, partitioning, replication.
-
-- **May 8:**  
-  **Task:**  
-  - Understand Messaging Queues (Kafka, Azure Queues, MQTT)  
-  **Concepts:** Asynchronous communication, decoupling services.
-
-- **May 9:**  
-  **Task:**  
-  - Solve a detailed System Design Case Study (e.g., design a URL shortening service)
-
-- **May 10-13:**  
-  **Task:**  
-  - Conduct Mock System Design Interviews  
-  **Focus:** High-level architecture, scalability concerns, trade-offs.
-
-- **May 14:**  
-  **Task:**  
-  - Break / Revise System Design Topics
-
-- **May 15:**  
-  **Task:**  
-  - Discuss High-Level Design for Real-World Applications (e.g., E-commerce, Social Networks)
-
-- **May 16-19:**  
-  **Task:**  
-  - Intensive Mock Interviews (both Coding & System Design)
+**Design discussion checklist:**
+1. Clarify functional and non-functional requirements.
+2. Estimate scale and identify important constraints.
+3. Sketch the high-level architecture and request flow.
+4. Define APIs and data models.
+5. Identify bottlenecks and failure cases.
+6. Explain trade-offs and possible future improvements.
 
 ---
 
-## Week 11-12: Final Revision & Mock Interviews (May 20 - June 1, 2025)
+### Weeks 11–12: Projects, Revision, and Mock Interviews
 
-**Daily Goal:**  
-Consolidate your knowledge through problem solving, revision, and full-length mock interviews.
+**Goals:** Consolidate knowledge and practice communicating under interview conditions.
 
-### **Schedule & Detailed Concepts**
+**Study and practice:**
+- Revisit weak topics and redo selected problems without notes.
+- Complete or polish a small project using Python or JavaScript.
+- Write tests and document setup, design decisions, and trade-offs.
+- Practice coding interviews with a timer and explain your reasoning aloud.
+- Conduct system design and behavioral mock interviews.
+- Review mistakes and create a short final revision sheet.
 
-- **May 20-24:**  
-  **Task:**  
-  - Revise core topics: Graphs, DP, Trees, and Linked Lists  
-  **Approach:**  
-  - Revisit sample problems, review implementations, and reinforce theoretical concepts.
-
-- **May 25-26:**  
-  **Task:**  
-  - Conduct Full-Length Mock Coding Interviews  
-  **Focus:**  
-  - Simulate interview conditions to build speed and accuracy.
-
-- **May 27-30:**  
-  **Task:**  
-  - Revise System Design Concepts  
-  **Focus:**  
-  - Summarize key learnings; rehearse high-level design discussions.
-
-- **May 31 - June 1:**  
-  **Task:**  
-  - Final Day Revision & Confidence Building  
-  **Focus:**  
-  - Short practice sessions, review cheat sheets, and maintain a positive mindset.
+**Suggested project ideas:**
+- Python: REST API, command-line task tracker, or data-processing tool.
+- JavaScript: API-backed web app, real-time dashboard, or Node.js service.
+- For either language, include input validation, error handling, tests, and a clear README.
 
 ---
 
-## Final Tips
+## Language Topics
 
-- **Conceptual Clarity:**  
-  When preparing for interviews, ensure you not only solve problems but also understand the underlying principles.  
-- **Time Management:**  
-  Practice with timed mock interviews to simulate real interview scenarios.  
-- **Hands-On Practice:**  
-  Write code regularly on a whiteboard or in an IDE. Refactor your code to improve readability and efficiency.  
-- **System Design Preparation:**  
-  Think about trade-offs, bottlenecks, and scalability issues. Keep updated with modern cloud architectures.
+### Python checklist
+
+- [ ] Core data types, collections, and complexity
+- [ ] Functions, scope, exceptions, and modules
+- [ ] Iterators, generators, and comprehensions
+- [ ] Classes, inheritance, and properties
+- [ ] Testing and debugging
+- [ ] Common standard-library tools such as `collections`, `heapq`, and `itertools`
+
+### JavaScript checklist
+
+- [ ] Types, coercion, scope, and equality
+- [ ] Arrays, objects, `Map`, and `Set`
+- [ ] Functions, closures, and prototypes
+- [ ] Promises and `async`/`await`
+- [ ] Modules, Node.js basics, and error handling
+- [ ] Testing and debugging
 
 ---
 
-**Note:**  
-To convert this Markdown file to a PDF, you can use Pandoc with the following command in your terminal:
+## System Design Framework
 
+For each design problem, write down:
 
+- **Requirements:** What must the system do? What quality attributes matter?
+- **Scale:** What are the expected users, requests, and data volumes?
+- **Interfaces:** What APIs or events connect the components?
+- **Storage:** What data is stored, and how is it queried?
+- **Architecture:** How do requests and data flow through the system?
+- **Trade-offs:** What changes with higher scale, stricter consistency, or lower latency?
+- **Operations:** How are errors, security, monitoring, and recovery handled?
+
+Start with the simplest design that satisfies the requirements, then evolve it to address specific bottlenecks.
+
+---
+
+## Interview Practice Routine
+
+For each coding problem:
+
+1. Restate the problem and clarify assumptions.
+2. Work through a small example and edge cases.
+3. Describe a straightforward solution, then improve it if needed.
+4. Explain the algorithm before coding.
+5. Test normal, boundary, and invalid inputs.
+6. State time and space complexity.
+7. Review what could be improved after solving it.
+
+For behavioral interviews, prepare concise examples using the **Situation, Task, Action, Result** structure.
+
+---
+
+## Progress Tracker
+
+Copy this checklist for each study week:
+
+- [ ] Review the week’s concepts.
+- [ ] Implement at least one core technique.
+- [ ] Solve practice problems and record mistakes.
+- [ ] Explain one solution aloud.
+- [ ] Revisit a topic from an earlier week.
+- [ ] Update notes or a project.
+
+## Final Reminder
+
+Consistency matters more than following the schedule perfectly. Focus on understanding, implementation, clear communication, and learning from mistakes.
