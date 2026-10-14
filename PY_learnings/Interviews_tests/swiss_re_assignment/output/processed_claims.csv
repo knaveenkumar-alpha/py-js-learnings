@@ -1,0 +1,7 @@
+claim_id,policyholder_name,region,claim_type,claim_priority,claim_amount,claim_period,source_system_id,hash_id
+CL_472,John Doe,East,Coinsurance,Normal,1500.75,2023-01,472,8caffebad1f05b03c86c8a7e2031b270
+RX_819,John Doe,West,Reinsurance,Urgent,4200.0,2023-02,819,1369c228720621ae6c14eeb2e7b267df
+CX_235,Jane Smith,West,Unknown,Urgent,4500.5,2023-03,235,8e102bd27ea9ff3d405457a0d15c8eba
+CL_627,,North,Coinsurance,Normal,2800.25,2023-04,627,a91a53a5a17ed643a4c36e8398aad91e
+RX_394,Jane Smith,South,Reinsurance,Normal,1800.0,2023-05,394,70c48f9c1650cb0488a16322330b6102
+CL_153,Bob Johnson,South,Coinsurance,Urgent,5100.0,2023-06,153,c02fb465900a918db3fec3380d93fb22

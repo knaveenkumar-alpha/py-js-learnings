@@ -1,0 +1,7 @@
+claim_id,policyholder_id,region,claim_urgency,claim_amount,claim_date
+CL_472,PH_101,East,High,1500.75,2023-01-15
+RX_819,PH_101,West,Low,4200.00,2023-02-10
+CX_235,PH_237,West,High,4500.50,2023-03-05
+CL_627,PH_115,North,Low,2800.25,2023-04-20
+RX_394,PH_237,South,High,1800.00,2023-05-12
+CL_153,PH_152,South,Low,5100.00,2023-06-08

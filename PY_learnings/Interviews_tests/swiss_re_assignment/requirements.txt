@@ -1,0 +1,4 @@
+requests
+pyspark==4.0.1
+delta-spark==4.0.0
+pytest
